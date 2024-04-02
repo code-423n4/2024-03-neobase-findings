@@ -1,0 +1,8 @@
+{
+  "contest": 355,
+  "handle": "said",
+  "risk": "2",
+  "title": "When the `unlockOverride` flag is true, users can \"freely\" vote for gauge weights.",
+  "issueId": 5,
+  "issueUrl": "https://github.com/code-423n4/2024-03-neobase-findings/issues/5"
+}
