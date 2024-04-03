@@ -1,0 +1,8 @@
+{
+  "contest": 355,
+  "handle": "Arabadzhiev",
+  "risk": "3",
+  "title": "If a gauge that an user has voted for gets removed, their voting power allocated for that gauge will be lost",
+  "issueId": 18,
+  "issueUrl": "https://github.com/code-423n4/2024-03-neobase-findings/issues/18"
+}
