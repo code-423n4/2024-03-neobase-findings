@@ -1,0 +1,8 @@
+{
+  "contest": 355,
+  "handle": "Arabadzhiev",
+  "risk": "2",
+  "title": "`GaugeController::remove_gauge` will always revert whenever the gauge it's being called for has any weight attached to it",
+  "issueId": 22,
+  "issueUrl": "https://github.com/code-423n4/2024-03-neobase-findings/issues/22"
+}
