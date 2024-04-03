@@ -1,3 +1,14 @@
+# [L-01] In `LendingLedger`, once a liquidity gauge is assigned to a given market, it can't be updated or removed
+
+## Links to affected code
+https://github.com/code-423n4/2024-03-neobase/blob/d6e6127e6763b93c23ee95cdf7622fe950d9ed30/src/LendingLedger.sol#L154-L171
+
+## Description
+Due to the way that the `LendingLedger` contract is implemented, there is currently no functionality for changing the liquidity gauges of markets once they are set to them. This can prove to be problematic in the long run, since the protocol team might need to change or remove some of them at some point in the future due to various different reasons, but they won't be able to do so.
+
+## Recommended Mitigation Steps
+Add functionality for updating/removing liquidity gauges from markets
+
 # [NC-01] `LiquidityGauge` does not have to extend `ERC20`, since this contract is already extended by `ERC20Burnable`
 
 ## Links to affected code
@@ -8,6 +19,7 @@ https://github.com/code-423n4/2024-03-neobase/blob/d6e6127e6763b93c23ee95cdf7622
 
 ## Recommended Mitigation Steps
 Remove `ERC20` from the `LiquidityGauge` contract declaration
+
 
 # [NC-02] Redundant `super::_afterTokenTransfer` call in `LiquidityGauge::_afterTokenTransfer`
 
