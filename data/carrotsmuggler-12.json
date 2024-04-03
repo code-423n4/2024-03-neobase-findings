@@ -1,0 +1,8 @@
+{
+  "contest": 355,
+  "handle": "carrotsmuggler",
+  "risk": "3",
+  "title": "Wrong gauge weight used during `update_market` in `LendingLedger.sol` contract",
+  "issueId": 12,
+  "issueUrl": "https://github.com/code-423n4/2024-03-neobase-findings/issues/12"
+}
