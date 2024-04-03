@@ -1,0 +1,8 @@
+{
+  "contest": 355,
+  "handle": "0xsomeone",
+  "risk": "2",
+  "title": "Improper Adjustment of Lending Ledger Configuration",
+  "issueId": 16,
+  "issueUrl": "https://github.com/code-423n4/2024-03-neobase-findings/issues/16"
+}
