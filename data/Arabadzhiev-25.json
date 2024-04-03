@@ -1,0 +1,8 @@
+{
+  "contest": 355,
+  "handle": "Arabadzhiev",
+  "risk": "3",
+  "title": "In case a gauge weight reduction is performed via `GaugeController::change_gauge_weight`, it is possible that all functions will stop functioning permanently for that gauge",
+  "issueId": 25,
+  "issueUrl": "https://github.com/code-423n4/2024-03-neobase-findings/issues/25"
+}
