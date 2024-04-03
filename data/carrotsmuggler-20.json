@@ -1,0 +1,8 @@
+{
+  "contest": 355,
+  "handle": "carrotsmuggler",
+  "risk": "2",
+  "title": "`change_gauge_weight` can be called on non-existent gauges, throwing off gauge calculations",
+  "issueId": 20,
+  "issueUrl": "https://github.com/code-423n4/2024-03-neobase-findings/issues/20"
+}
