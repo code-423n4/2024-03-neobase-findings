@@ -460,7 +460,7 @@ Governance
 
 **[0xTheC0der (judge) commented](https://github.com/code-423n4/2024-03-neobase-findings/issues/16#issuecomment-2035626708):**
  > Referring to README:  
-> > ## Publicly Known Issues
+> > ### Publicly Known Issues
 > > **Mistakes by Governance:**
 > > We assume that all calls that are performed by the governance address are performed with the correct parameters.
 > 
